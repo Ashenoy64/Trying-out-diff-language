@@ -1,0 +1,32 @@
+//rectangle intersection and its variants
+
+//given an array a of n object with boolean-valued keys reoreder the array so 
+that the key false appears first. The relative ordering of objects with key true should not change.
+
+
+//write a program to compute the minimum number of steps needed to advance to last location
+
+
+//2.4 Partition: Write code to partition a linked list around a value x, such that all nodes less than x come 
+before all nodes greater than or equal to x. If x is contained within the list, the values of x only need 
+to be after the elements less than x (see below). The partition element x can appear anywhere in the 
+"right partition"; it does not need to appear between the left and right partitions.
+
+//AVL tree and red black tree Implement
+
+//bidirectionla search (shortes path),topological sort
+
+
+//Counting tilings
+
+//find the subarray sum==x
+
+//nearest smallest elemenst
+
+//counting grids using bits
+
+//job scheduling using dynamic and lower and bounds
+
+//counting subset
+
+//lexiographical sort

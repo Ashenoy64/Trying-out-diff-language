@@ -1,0 +1,37 @@
+package InClass;
+
+public class Class2d {
+	public static void main(String[] args) {
+		Car c=new Car();
+		c.createEngine();
+		TapeRecorder t=new TapeRecorder();
+		c.createTapeRecorder(t);
+	}
+}
+
+class Car{
+	private Engine e;//Composition
+	private TapeRecorder t; //Aggregation
+	public void createEngine() {
+		e=new Engine();
+		System.out.println("This car contains ");
+		e.display();
+	}
+	public void createTapeRecorder(TapeRecorder t) {//Aggregation
+		this.t=t;
+		System.out.println("This car contains ");
+		t.display();
+	}
+}
+
+class Engine{
+	void display() {
+		System.out.println("Engine");
+	}
+}
+
+class TapeRecorder{
+	void display() {
+		System.out.println("TapeRecorder");
+	}
+}
